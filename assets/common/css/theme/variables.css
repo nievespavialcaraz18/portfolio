@@ -1,0 +1,15 @@
+:root {
+    --content-primary: var(--primary-500);
+    --content-primary-strong: var(--primary-700);
+
+    --content-neutral: var(--surface-200);
+    --content-neutral-strong: var(--surface-500);
+
+    --surface-default: var(--surface-50);
+    --surface-raised: var(--surface-100);
+
+    --container-primary: var(--primary-100);
+    --container-primary-strong: var(--primary-200);
+
+    --border-radius: 1rem;
+}

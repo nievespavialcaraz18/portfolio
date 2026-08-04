@@ -1,0 +1,30 @@
+@import url("./theme/colors.css");
+@import url("./theme/variables.css");
+@import url("./theme/font.css");
+@import url("./theme/button.css");
+@import url("./theme/icons.css");
+@import url("./partials/section.css");
+@import url("./partials/navbar.css");
+@import url("./partials/hero.css");
+@import url("./partials/about.css");
+@import url("./partials/contact.css");
+@import url("./partials/projects.css");
+@import url("./partials/toast.css");
+@import url("./partials/project-detail.css");
+@import url("./partials/lightbox.css");
+@import url("./partials/footer.css");
+
+body {
+    background-color: var(--surface-default);
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: var(--content-primary);
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

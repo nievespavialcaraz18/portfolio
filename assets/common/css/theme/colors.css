@@ -1,0 +1,23 @@
+:root {
+    --primary-50: #e8f2ec;
+    --primary-100: #c8dfd0;
+    --primary-200: #a9ccb4;
+    --primary-300: #8eb79a;
+    --primary-400: #7fa789;
+    --primary-500: #75977c;
+    --primary-600: #6c8a71;
+    --primary-700: #627a65;
+    --primary-800: #586a5a;
+    --primary-900: #474d46;
+
+    --surface-50: #f8f0de;
+    --surface-100: #efd9ab;
+    --surface-200: #e5c172;
+    --surface-300: #dba836;
+    --surface-400: #d69700;
+    --surface-500: #d18600;
+    --surface-600: #cf7b00;
+    --surface-700: #ca6d00;
+    --surface-800: #c55d00;
+    --surface-900: #bc4400;
+}

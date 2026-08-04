@@ -1,0 +1,16 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1.25rem 1.5rem;
+    background-color: var(--container-primary);
+    appearance: none;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--container-primary-strong);
+        text-decoration: none;
+    }
+}

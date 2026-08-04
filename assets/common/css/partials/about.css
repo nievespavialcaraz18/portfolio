@@ -1,0 +1,27 @@
+.about {
+    max-width: 80%;
+    margin: 0 auto;
+    color: var(--content-primary);
+}
+
+.about__container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .about__container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.about__img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2rem;
+}
+
+.about__text {
+    font-size: 2rem;
+}
