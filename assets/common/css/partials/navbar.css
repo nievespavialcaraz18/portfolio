@@ -14,7 +14,7 @@
     display: flex;
     list-style: none;
     margin: 0;
-    padding: 1.25rem 0.25rem;
+    padding: 0.25rem;
     margin-top: 1rem;
     border-radius: var(--border-radius);
 
@@ -34,6 +34,9 @@
 }
 
 .navbar__link {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
     font-size: 1.25rem;
     color: var(--content-primary);
     text-decoration: none;
@@ -46,4 +49,10 @@
     background-color: var(--container-primary);
     color: var(--content-primary-strong);
     text-decoration: none;
+}
+
+@media (width <=768px) {
+    .navbar__link-label {
+        display: none;
+    }
 }

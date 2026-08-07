@@ -11,10 +11,11 @@
 
 h1 {
     font-family: var(--heading-font);
+    font-size: clamp(4rem, 5vw, 5rem);
 }
 
 .section__title {
-    font-size: 4rem;
+    font-size: clamp(3rem, 5vw, 4rem);
     color: var(--content-primary);
     text-transform: uppercase;
 }
